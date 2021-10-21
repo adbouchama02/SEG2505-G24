@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1042233690318",
+    "project_id": "seg2505-lab5-g24",
+    "storage_bucket": "seg2505-lab5-g24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042233690318:android:a399e365715fee6512a89f",
+        "android_client_info": {
+          "package_name": "com.example.lab5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042233690318-dg4ar5coos8334cvjo0idevspda2g4g4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqyjLnt4AnlVjIWjExqfPpW_MPDlgQdpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042233690318-dg4ar5coos8334cvjo0idevspda2g4g4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
