@@ -23,8 +23,8 @@ import android.os.Bundle;
 
 
 public class MainActivity extends AppCompatActivity {
-    DatabaseReference databeseProduct;
-    @Override
+    DatabaseReference databaseProducts;
+
     protected void onCreate(Bundle savedInstanceState) {
         //databaseProduct = FirebaseDatabase.getInstance().getReference("products");
         super.onCreate(savedInstanceState);
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         databaseProducts.addValueEventListener(new ValueEventListener() {
             public void onDataChange(DataSnapshot dataSnapshot) {
-                //products.clear;
+                products.clear;
                 for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
                     Product product = postSnapshot.getValue(Product.class);
                     products.add(product);
